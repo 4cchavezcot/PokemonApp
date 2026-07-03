@@ -124,6 +124,18 @@ Se usa **cache-aside con TTL de 24 h y respaldo offline** sobre AsyncStorage:
 - ✅ Testing unitario del store del listado: carga exitosa, estado de error con mensaje amigable y paginación, mockeando la fuente de datos.
 - ✅ Animaciones sutiles: barras de stats con llenado animado, pulso en skeletons, feedback de presión en tarjetas.
 
+## Capturas
+
+Las capturas de la app funcionando están en la carpeta [`screenshots/`](screenshots):
+
+| Listado con buscador | Detalle (Bulbasaur) |
+|:---:|:---:|
+| <img src="screenshots/Cap1.jpeg" width="260" alt="Listado de Pokémon con buscador y tipos en español" /> | <img src="screenshots/Cap2.jpeg" width="260" alt="Detalle con descripción, altura, peso, habilidades, debilidades y evolución" /> |
+
+| Evolución navegable (Ivysaur) | Estadísticas base |
+|:---:|:---:|
+| <img src="screenshots/Cap3.jpeg" width="260" alt="Detalle de Ivysaur abierto desde la cadena de evolución, sin cambiar de pantalla" /> | <img src="screenshots/Cap4.jpeg" width="260" alt="Sección de estadísticas base con barras de progreso" /> |
+
 ## Pendientes / mejoras futuras
 
 - Búsqueda remota (hoy filtra sobre lo ya cargado) y filtrado por tipo.
